@@ -10,5 +10,8 @@ git add .
 git commit -m 'second commit'
 git push origin main
 
-<-- Remove saved url -->
-git remote set-url origin https://github.com/myk3lekill/template-test.git
+<-- change git url (in case of changing repository) -->
+git remote set-url origin https://github.com/myk3lekill/template.git
+
+<-- delete the entire repository -->
+rm -rf .git
